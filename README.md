@@ -58,16 +58,26 @@ This device watches a chest strap and checks how much it stretches when you brea
 4. Watch the 5 lights go up and down as you breathe.
 5. If the noise bothers you, click the main button 3 times quickly to mute it for 30 seconds.
 
-   Component,Arduino Pin,Description
-HX711 DT,D8,Data
-HX711 SCK,D9,Clock
-Potentiometer 1,A0,Threshold (Base) Setting
-Potentiometer 2,A1,LED Range Setting
-Start/Stop Button,D12,Internal Pull-up
-Tare (Reset) Button,D11,Internal Pull-up
-Buzzer (+),D13,Warning Sound
-Blue LED,D10,Self-Test Indicator
-White LED,D2,Ready Indicator
-LED 1 - LED 5,"D3, D4, D5, D6, D7",Breathing Levels
-
+🔌 ARDUINO BOARD PINOUT 🔌
+   ____________________________________
+  |  [PIN]  |      [COMPONENT]         |
+  |=========|==========================|
+  |   D2    | White LED (Ready)     |
+  |   D3    | LED 1 (Level 1)       |
+  |   D4    |LED 2 (Level 2)        |
+  |   D5    | LED 3 (Level 3)       |
+  |   D6    | LED 4 (Level 4)       |
+  |   D7    | LED 5 (Level 5)       |
+  |---------|--------------------------|
+  |   D8    | HX711 DT (Data)      |
+  |   D9    | HX711 SCK (Clock)    |
+  |   D10   | Blue LED (Test)      |
+  |---------|--------------------------|
+  |   D11   | Tare Button (Reset)  |
+  |   D12   | Start/Stop Button    |
+  |   D13   | Buzzer (+)           |
+  |---------|--------------------------|
+  |   A0    | Pot 1 (Threshold)    |
+  |   A1    | Pot 2 (LED Range)    |
+  |_________|__________________________|
    

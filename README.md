@@ -8,7 +8,7 @@ Bu cihaz, göğsüne taktığın bir kemerin ne kadar gerildiğine bakarak senin
 - Her şey yolundaysa "ben buradayım" der gibi 8 saniyede bir ufak bir ses çıkarır.
 
 ### 2. Malzemeler
-* Arduino Mega (Beyin kısmı)
+* Arduino kartı
 * Load Cell + HX711 (Gerginliği ölçen asıl parça ve onun yardımcısı)
 * 2 Tane Çevirmeli Düğme (Hassaslık ayarı yapmak için)
 * 2 Tane Basmalı Düğme (Başlatmak ve sıfırlamak için)

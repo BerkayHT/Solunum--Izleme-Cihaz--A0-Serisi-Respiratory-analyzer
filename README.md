@@ -1,5 +1,5 @@
 TÜRKÇE
-
+!!!  Uyarı:Genelde loadcell parçasının yan dönmesi gibi sorunlar olabiliyor onun dışında eğer sıkıntı yaşarsanız dara sıfırlama düğmesi sorununuzu büyük ihtimalle çözecektir.
 # Heat-Zone-breathe-analyzer-A0-series-
 ### 1. Genel Mantık
 Bu cihaz, göğsüne taktığın bir kemerin ne kadar gerildiğine bakarak senin nasıl nefes aldığını anlar. 
